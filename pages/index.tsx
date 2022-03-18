@@ -1,3 +1,4 @@
+import { Button } from '@nextui-org/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -7,10 +8,12 @@ const HomePage: NextPage = () => {
   return (
    
 <>
- <h1> hola mundo</h1>
+ <Button color={'gradient'}>
+   hola mudo
+ </Button>
 </>
 
   )
 }
 
-export default HomePage;
+export default HomePage
